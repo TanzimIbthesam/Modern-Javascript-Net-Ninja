@@ -1,0 +1,17 @@
+let fruits=['Apples','Oranges','Pear'];
+console.log(fruits[0]);
+let ages=[20,25,30,35];
+console.log(ages[0]);
+let random=['ABC','DEF',123,456];
+console.log(random[2]);
+console.log(fruits.length);
+// let result=fruits.join('-');
+// console.log(result);
+// let result=fruits.indexOf('Oranges');
+// console.log(result);
+let result=fruits.concat(['Pear','Kiwi']);
+console.log(result);
+let resulttwo=fruits.push('Strawberry');
+console.log(resulttwo);
+resulttwo=fruits.pop();
+console.log(resulttwo);
