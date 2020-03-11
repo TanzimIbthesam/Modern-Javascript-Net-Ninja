@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <!-- Async Javscript 
+  Start Now and finish Later 
+  Governs how we perform tasks which takes some time to complete -->
+  <!-- Sync Javscript -->
+<!-- //Javscript by nature is synchronous it can run only one statement at a time -->
+<!-- In synchronous it is known as blocking code as it stops next line of code from running
+   It can only run one line of data at a time
+ One statement is executed at a time in a single thread
+ Any function could take 2-3 seconds to complete or even longer
+ 2 secs might not be long but we can have multiple functions to get data 
+ it would block all code from running unless those are completed
+   
+
+-->
+<!-- 
+Statement-1 
+Statement-2-takes-time---Database--|
+Statement-3-takes-time
+Statement-4
+Callback-------------------------- 
+Tasks which takes time to complete Synchr programming not the best practice
+For that reason Async programming is best start now and finish later
+
+We see que of function calls 
+we use async function to execute that data
+Browser takes the request and handles it outside the scope of this single thread in another half of the browser
+It take s callback function and puts it to another side too it executes it later on when the data comes back
+If that network or specified request has been taken out of this thread Js can run down the que and run remaining function
+
+It makes our code non blocking because rest of the coding can be executed
+
+-->
+</html>
